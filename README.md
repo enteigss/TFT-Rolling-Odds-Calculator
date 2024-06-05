@@ -51,3 +51,6 @@ $$
 Because of how matrix multiplication works, we can read off "P(start with i yuumis and end with j yuumis)" from the (i, j)-th entry of this matrix! Thus we have a 0.955 chance of getting no yuumis, a 0.045 chance of getting 1 yuumi, and a 0.0006 chance of getting 2 yuumis after seeing 2 shops.
 
 For the purposes of this calculator, the transition matrix $M$ is 10 x 10 (To calculate probabilities of getting up to 9 yuumis), and we basically compute $M^{5g/2}$, where $g$ is the amount of gold spent (since 2 gold = 5 shops).
+
+
+Headliner capabilities: Using the law of total expectation we can calculate the probability of getting a headliner in each shop, with this in combination with the method above it was possible to incorporate the possibility of headliners. 
